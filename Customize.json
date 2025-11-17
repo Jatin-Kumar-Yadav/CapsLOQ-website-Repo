@@ -1,0 +1,223 @@
+{
+  "basePrice": 12000.00,
+  "categories": {
+    "CPU": {
+      "title": "Choose Your Processor",
+      "options": [
+        {
+          "id": "sd8g3",
+          "name": "Snapdragon 8 Gen 3",
+          "price": 3500.00,
+          "updates": {
+            "processor": "Snapdragon 8 Gen 3",
+            "ram": "8GB LPDDR4"
+          }
+        },
+        {
+          "id": "sd7g2",
+          "name": "Snapdragon 7s Gen 2",
+          "price": 3000.00,
+          "updates": {
+            "processor": "Snapdragon 7s Gen 2",
+            "ram": "8GB LPDDR5"
+          }
+        },
+        {
+          "id": "mtk8300",
+          "name": "MediaTek Dimensity 8300",
+          "price": 4000.00,
+          "updates": {
+            "processor": "MediaTek Dimensity 8300",
+            "ram": "12GB LPDDR4X"
+          }
+        },
+        {
+          "id": "dim1300",
+          "name": "Dimensity Core 1300",
+          "price": 2000.00,
+          "updates": {
+            "processor": "Dimensity Core 1300",
+            "ram": "6GB LPDDR4"
+          }
+        }
+      ]
+    },
+    "Camera": {
+      "title": "Choose Your Camera",
+      "options": [
+        {
+          "id": "basic-cam",
+          "name": "64 MP (Sony IX), 12MP",
+          "price": 500.00,
+          "updates": {
+            "camera": "64 MP (Sony IX), 12MP"
+          }
+        },
+        {
+          "id": "pro-cam",
+          "name": "108 MP Triple Setup",
+          "price": 1500.00,
+          "updates": {
+            "camera": "108 MP Main + 50MP Ultra-wide + 12MP Telephoto"
+          }
+        },
+        {
+          "id": "ultra-cam",
+          "name": "200 MP Pro Sensor",
+          "price": 2300.00,
+          "updates": {
+            "camera": "200 MP (Samsung ISOCELL), 50MP Periscope"
+          }
+        }
+      ]
+    },
+    "Display": {
+      "title": "Choose Your Display",
+      "options": [
+        {
+          "id": "amoled-120",
+          "name": "6.7” AMOLED 120Hz",
+          "price": 1000.00,
+          "updates": {
+            "display": "6.7” AMOLED 120Hz"
+          }
+        },
+        {
+          "id": "lcd-90",
+          "name": "6.5” LCD 90Hz",
+          "price": 800.00,
+          "updates": {
+            "display": "6.5” LCD 90Hz"
+          }
+        },
+        {
+          "id": "amoled-144",
+          "name": "6.8” AMOLED 144Hz",
+          "price": 900.00,
+          "updates": {
+            "display": "6.8” AMOLED 144Hz LTPO"
+          }
+        }
+      ]
+    },
+    "Battery": {
+      "title": "Choose Your Battery",
+      "options": [
+        {
+          "id": "4550mah",
+          "name": "4550mAh with 45W Charging",
+          "price": 1000.00,
+          "updates": {
+            "battery": "4550mAh"
+          }
+        },
+        {
+          "id": "5000mah",
+          "name": "5000mAh with 65W Fast Charge",
+          "price": 1300.00,
+          "updates": {
+            "battery": "5000mAh"
+          }
+        },
+        {
+          "id": "6000mah",
+          "name": "6000mAh with Wireless Charging",
+          "price": 1500.00,
+          "updates": {
+            "battery": "6000mAh"
+          }
+        }
+      ]
+    },
+    "Design": {
+      "title": "Choose Your Design",
+      "options": [
+        {
+          "id": "red-velvet",
+          "name": "Red Velvet",
+          "price": 100.00,
+          "updates": {
+            "color": "Red Velvet"
+          }
+        },
+        {
+          "id": "midnight-black",
+          "name": "Midnight Black",
+          "price": 120.00,
+          "updates": {
+            "color": "Midnight Black"
+          }
+        },
+        {
+          "id": "silver-frost",
+          "name": "Silver Frost",
+          "price": 150.00,
+          "updates": {
+            "color": "Silver Frost"
+          }
+        }
+      ]
+    },
+    "Memory": {
+      "title": "Choose Your Memory",
+      "options": [
+        {
+          "id": "8-128",
+          "name": "8GB RAM / 128GB Storage",
+          "price": 2500.00,
+          "updates": {
+            "ram": "8GB LPDDR4",
+            "storage": "128GB"
+          }
+        },
+        {
+          "id": "12-256",
+          "name": "12GB RAM / 256GB Storage",
+          "price": 3500.00,
+          "updates": {
+            "ram": "12GB LPDDR5",
+            "storage": "256GB"
+          }
+        },
+        {
+          "id": "16-512",
+          "name": "16GB RAM / 512GB Storage",
+          "price": 5200.00,
+          "updates": {
+            "ram": "16GB LPDDR5X",
+            "storage": "512GB"
+          }
+        }
+      ]
+    },
+    "Material": {
+      "title": "Choose Your Material",
+      "options": [
+        {
+          "id": "poly",
+          "name": "Polycarbonate",
+          "price": 0.00,
+          "updates": {
+            "material": "Polycarbonate"
+          }
+        },
+        {
+          "id": "glass",
+          "name": "Gorilla Glass",
+          "price": 200.00,
+          "updates": {
+            "material": "Gorilla Glass Victus"
+          }
+        },
+        {
+          "id": "titanium",
+          "name": "Titanium Frame",
+          "price": 400.00,
+          "updates": {
+            "material": "Grade 5 Titanium"
+          }
+        }
+      ]
+    }
+  }
+}

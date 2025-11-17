@@ -1,0 +1,115 @@
+
+
+.support-container {
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  margin-top: 50px;
+  margin-left: 300px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.support-container h1, h2 {
+  color: #08084e;
+}
+
+.faq-section {
+  margin: 20px 0;
+}
+
+.faq {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  background: #08084e;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.faq-question.active {
+  background: #1a1a80;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background: #f1f1f1;
+  border-left: 4px solid #08084e;
+  margin-top: 5px;
+  border-radius: 6px;
+}
+
+.form-section {
+  margin-top: 30px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section input, 
+.form-section textarea {
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-section button {
+  background: #08084e;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.form-section button:hover {
+  background: #1a1a80;
+}
+
+.extra-support {
+  margin-top: 30px;
+}
+
+.extra-support input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.extra-support button {
+  background: #08084e;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.extra-support button:hover {
+  background: #1a1a80;
+}
+
+.chat-btn {
+  margin-top: 10px;
+  background: #0078ff;
+}

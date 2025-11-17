@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+
+<link rel="stylesheet" href="/cart.css">
+
+<div class="cart-main">
+  <div class="cart-section">
+    <h3 id="cart-items-title">Cart Items (0)</h3>
+    <div id="cart-items" class="horizontal-scroll"></div>
+  </div>
+  <div class="cart-section">
+    <h3 id="past-purchases-title">Past Purchases (0)</h3>
+    <div id="past-purchases" class="horizontal-scroll"></div>
+  </div>
+  <div class="cart-section">
+    <h3 id="saved-for-later-title">Saved for Later (0)</h3>
+    <div id="saved-for-later" class="horizontal-scroll"></div>
+  </div>
+</div>
+
+<footer class="cart-footer">
+  <div class="footer-content">
+    <span>Total: ₹<span id="cart-total">0</span></span>
+    <button id="clear-cart">Clear Cart</button>
+    <button id="checkout-all">Checkout All</button>
+  </div>
+</footer>
+
+<script src="/cart.js"></script>
+<%- include('partials/footer') %>

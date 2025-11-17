@@ -1,0 +1,144 @@
+<%- include('partials/header') %>
+<link rel="stylesheet" href="/Customize.css">
+
+<div class="head2">
+    <div class="BigLOGO">
+      <img src="/Caps_Data/CapsLOQ-biglogo.png" alt="CapsLOQ">
+    </div>
+    <div class="tagline">
+      <div class="grey">Redifining Smartphone</div>
+      <div class="blue">Designed by you</div>
+    </div>
+  </div>
+  <div class="Customizingspecs">
+    <div class="button-group">
+      <input type="radio" id="CPU" name="category" checked>
+      <label class="btn" for="CPU">CPU</label>
+      
+      <input type="radio" id="Camera" name="category">
+      <label class="btn" for="Camera">Camera</label>
+      
+      <input type="radio" id="Display" name="category">
+      <label class="btn" for="Display">Display</label>
+      
+      <input type="radio" id="Battery" name="category">
+      <label class="btn" for="Battery">Battery</label>
+      
+      <input type="radio" id="Design" name="category">
+      <label class="btn" for="Design">Design</label>
+
+      <input type="radio" id="Memory" name="category">
+      <label class="btn" for="Memory">Memory</label>
+
+      <input type="radio" id="Material" name="category">
+      <label class="btn" for="Material">Material</label>
+    </div>
+  </div>
+  <div class="CustomFrame">
+    <div class="Customspecs" id="options-container">
+      <h2>Choose Your Processor</h2>
+      <input type="radio" id="Snapdragon 8 Gen 3" name="specs" checked>
+      <label class="option" for="Snapdragon 8 Gen 3"><span class="circle"></span>Snapdragon 8 Gen 3</label>
+      <br>
+      <input type="radio" id="Snapdragon 7s Gen 2" name="specs">
+      <label class="option" for="Snapdragon 7s Gen 2"><span class="circle"></span>Snapdragon 7s Gen 2</label>
+      <br>
+      <input type="radio" id="MediaTek Dimensity 8300" name="specs">
+      <label class="option" for="MediaTek Dimensity 8300"><span class="circle"></span>MediaTek Dimensity 8300</label>
+      <br>
+      <input type="radio" id="Dimensity Core 1300" name="specs">
+      <label class="option" for="Dimensity Core 1300"><span class="circle"></span>Dimensity Core 1300</label>
+    </div>
+    <div class="CustomFrame2">
+      <div class="Deviceimage">
+      <img src="/Caps_Data/Phone3.png" alt="Deviceimage">
+      </div>
+      <div class="Specificationtitle">Specification:</div>
+      <div class="Specificationdetails">
+        <div class="Spec">
+          Processor:
+        </div>
+        <div class="SpecChosen" id="processor">
+          Snapdragon 8 Gen 3
+        </div>
+      </div>
+      <div class="Specificationdetails">
+        <div class="Spec">
+          Ram:
+        </div>
+        <div class="SpecChosen" id="ram">
+          8GB LPDDR4
+        </div>
+      </div>
+      <div class="Specificationdetails">
+        <div class="Spec">
+          Storage:
+        </div>
+        <div class="SpecChosen" id="storage">
+          128GB
+        </div>
+      </div>
+      <div class="Specificationdetails">
+        <div class="Spec">
+          Camera:
+        </div>
+        <div class="SpecChosen" id="camera">
+          64 MP (Sony IX), 12MP
+        </div>
+      </div>
+      <div class="Specificationdetails">
+        <div class="Spec">
+          Display:
+        </div>
+        <div class="SpecChosen" id="display">
+          6.7” AMOLED 120Hz
+        </div>
+      </div>
+      <div class="Specificationdetails">
+        <div class="Spec">
+          Battery:
+        </div>
+        <div class="SpecChosen" id="battery">
+          4550mAh
+        </div>
+      </div>
+      <div class="Specificationdetails">
+        <div class="Spec">
+          Color:
+        </div>
+        <div class="SpecChosen" id="color">
+          Red Velvet
+        </div>
+      </div>
+      <div class="Specificationdetails">
+        <div class="Spec">
+          Material:
+        </div>
+        <div class="SpecChosen" id="material">
+          Polycarbonate
+        </div>
+      </div>
+
+      <div class="specseparatorline">       
+      </div>
+
+      <div class="Price">
+        <div class="TotalPriceTitle">
+          Total Price:
+        </div>
+        <div class="CalculatedPrice" id="total-price">
+          $ 150.55
+        </div>
+      </div>
+      <button class="Addtocart">
+        Add to Cart
+      </button>
+      <button class="Saveconfig">
+        Save Configuration
+      </button>
+    </div>
+  </div>
+
+  <script src="/Customize.js"></script>
+
+<%- include('partials/footer') %>

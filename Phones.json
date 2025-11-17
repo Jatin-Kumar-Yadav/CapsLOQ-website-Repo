@@ -1,0 +1,163 @@
+{
+  "categories": {
+    "all": {
+      "phones": [
+        {
+          "name": "Rivo",
+          "ram": "8GB",
+          "storage": "2TB",
+          "battery": "6500 mAh",
+          "price": 17000,
+          "img": "/Caps_Data/Phone1.png",
+          "details": "Upto 8 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6500 mAh <br>Any Camera",
+          "processor": "Qualcomm Snapdragon 7 Series",
+          "camera": "Any Camera",
+          "display": "Amoled/FHD/HD+ display"
+        },
+        {
+          "name": "Aura",
+          "ram": "16GB",
+          "storage": "2TB",
+          "battery": "6900 mAh",
+          "price": 34000,
+          "img": "/Caps_Data/Phone3.png",
+          "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 5050/6000/6900 mAh <br>Any Camera",
+          "processor": "Qualcomm Snapdragon 8 Gen Series",
+          "camera": "Any Camera",
+          "display": "Amoled/FHD/HD+ display"
+        },
+        {
+          "name": "Magic",
+          "ram": "12GB",
+          "storage": "1TB",
+          "battery": "6500 mAh",
+          "price": 32000,
+          "img": "/Caps_Data/Phone4.png",
+          "details": "Upto 12 GB ram (LPDDR5) <br>Max 1 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6500 mAh <br>Any Camera below Sony IMX 300",
+          "processor": "High-Performance Gaming Processor",
+          "camera": "Any Camera below Sony IMX 300",
+          "display": "Amoled/FHD/HD+ display"
+        },
+        {
+          "name": "Margak",
+          "ram": "16GB",
+          "storage": "2TB",
+          "battery": "6500 mAh",
+          "price": 35000,
+          "img": "/Caps_Data/Phone2.png",
+          "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6900 mAh <br>Any Camera below Sony IMX 300",
+          "processor": "Flagship Snapdragon",
+          "camera": "Any Camera below Sony IMX 300",
+          "display": "Amoled/FHD/HD+ display"
+        },
+        { "name": "Rivento", "ram": "8GB", "storage": "2TB", "battery": "6500 mAh", "price": 16999,
+        "img": "/Caps_Data/Phone8.png", "details": "Upto 8 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6500 mAh <br>Any Camera", "processor": "Qualcomm Snapdragon 7 Series", "camera": "Any Camera", "display": "Amoled/FHD/HD+ display" },
+        { "name": "Galvanac", "ram": "12GB", "storage": "2TB", "battery": "6000 mAh", "price": 29999,
+        "img": "/Caps_Data/Phone12.png", "details": "Upto 12 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6000 mAh <br>Any Camera below Sony IMX 300", "processor": "Efficient Mediatek Dimensity", "camera": "Any Camera below Sony IMX 300", "display": "Amoled/FHD/HD+ display" },
+        { "name": "Magven", "ram": "12GB", "storage": "1TB", "battery": "6500 mAh", "price": 32000,
+        "img": "/Caps_Data/Phone11.png", "details": "Upto 12 GB ram (LPDDR5) <br>Max 1 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6500 mAh <br>Any Camera below Sony IMX 300", "processor": "High-Performance Gaming Processor", "camera": "Any Camera below Sony IMX 300", "display": "Amoled/FHD/HD+ display" },
+        {
+          "name": "Galvin",
+          "ram": "12GB",
+          "storage": "2TB",
+          "battery": "6000 mAh",
+          "price": 27000,
+          "img": "/Caps_Data/Phone5.png",
+          "details": "Upto 12 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6000 mAh <br>Any Camera below Sony IMX 300",
+          "processor": "Efficient Mediatek Dimensity",
+          "camera": "Any Camera below Sony IMX 300",
+          "display": "Amoled/FHD/HD+ display"
+        },
+        { "name": "Mark", "ram": "12GB", "storage": "2TB", "battery": "6000 mAh", "price": 25999,
+        "img": "/Caps_Data/Phone10.png", "details": "Upto 12 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6000 mAh <br>Any Camera below Sony IMX 300", "processor": "Efficient Mediatek Dimensity", "camera": "Any Camera below Sony IMX 300", "display": "Amoled/FHD/HD+ display" },
+        { "name": "Stonish", "ram": "12GB", "storage": "1TB", "battery": "6500 mAh", "price": 36000,
+        "img": "/Caps_Data/Phone13.png", "details": "Upto 16 GB ram (LPDDR5) <br>Max 1 TB storage <br>FHD/HD+ display <br>Battery - 4550/5500/6500 mAh <br>Sony IMX 900", "processor": "Dimensity 7300", "camera": "Sony IMX 900", "display": "FHD/HD+ display" },
+           { "name": "Stephen", "ram": "16GB", "storage": "2TB", "battery": "6900 mAh", "price": 74999,
+            "img": "/Caps_Data/Phone6.png", "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 5050/6000/6900 mAh <br>Any Camera", "processor": "Qualcomm Snapdragon 8 Gen Series", "camera": "Any Camera", "display": "Amoled/FHD/HD+ display" },
+           { "name": "Darkmon", "ram": "16GB", "storage": "2TB", "battery": "6900 mAh", "price": 54000,
+            "img": "/Caps_Data/Phone9.png", "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 5050/6000/6900 mAh <br>Any Camera", "processor": "Qualcomm Snapdragon 8 Gen Series", "camera": "ZEISS 108MP, 32PX", "display": "Amoled/FHD/HD+ display" },
+           { "name": "Margak", "ram": "16GB", "storage": "2TB", "battery": "6500 mAh", "price": 62999,
+            "img": "/Caps_Data/Phone14.png", "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6900 mAh <br>Any Camera below Sony IMX 300", "processor": "Flagship Snapdragon", "camera": "Any Camera below Sony IMX 300", "display": "Amoled/FHD/HD+ display" },
+            { "name": "Tuf", "ram": "12GB", "storage": "2TB", "battery": "6000 mAh", "price": 27499,
+             "img": "/Caps_Data/Phone7.png", "details": "Upto 12 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6000 mAh <br>Any Camera below Sony IMX 300", "processor": "Efficient Mediatek Dimensity", "camera": "Any Camera below Sony IMX 300", "display": "Amoled/FHD/HD+ display" },
+            { "name": "Legion", "ram": "16GB", "storage": "2TB", "battery": "6900 mAh", "price": 34999,
+             "img": "/Caps_Data/Phone15.png", "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 5050/6000/6900 mAh <br>Any Camera", "processor": "Qualcomm Snapdragon 8 Gen Series", "camera": "Any Camera", "display": "Amoled/FHD/HD+ display" }
+        
+        ]
+    },
+    "budget": {
+      "phones": [
+        { "name": "Rivento", "ram": "8GB", "storage": "2TB", "battery": "6500 mAh", "price": 16999, "img": "/Caps_Data/Phone8.png", "details": "Upto 8 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6500 mAh <br>Any Camera", "processor": "Qualcomm Snapdragon 7 Series", "camera": "Any Camera", "display": "Amoled/FHD/HD+ display" },
+        { "name": "Galvanac", "ram": "12GB", "storage": "2TB", "battery": "6000 mAh", "price": 29999, "img": "/Caps_Data/Phone12.png", "details": "Upto 12 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6000 mAh <br>Any Camera below Sony IMX 300", "processor": "Efficient Mediatek Dimensity", "camera": "Any Camera below Sony IMX 300", "display": "Amoled/FHD/HD+ display" },
+        { "name": "Mark", "ram": "12GB", "storage": "2TB", "battery": "6000 mAh", "price": 25999, "img": "/Caps_Data/Phone10.png", "details": "Upto 12 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6000 mAh <br>Any Camera below Sony IMX 300", "processor": "Efficient Mediatek Dimensity", "camera": "Any Camera below Sony IMX 300", "display": "Amoled/FHD/HD+ display" },
+        {
+          "name": "Magic",
+          "ram": "12GB",
+          "storage": "1TB",
+          "battery": "6500 mAh",
+          "price": 32000,
+          "img": "/Caps_Data/Phone4.png",
+          "details": "Upto 12 GB ram (LPDDR5) <br>Max 1 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6500 mAh <br>Any Camera below Sony IMX 300",
+          "processor": "High-Performance Gaming Processor",
+          "camera": "Any Camera below Sony IMX 300",
+          "display": "Amoled/FHD/HD+ display"
+        }
+      ]
+    },
+    "gaming": {
+      "phones": [
+        { "name": "Magven", "ram": "12GB", "storage": "1TB", "battery": "6500 mAh", "price": 32000, "img": "/Caps_Data/Phone11.png", "details": "Upto 12 GB ram (LPDDR5) <br>Max 1 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6500 mAh <br>Any Camera below Sony IMX 300", "processor": "High-Performance Gaming Processor", "camera": "Any Camera below Sony IMX 300", "display": "Amoled/FHD/HD+ display" },
+        { "name": "Stonish", "ram": "12GB", "storage": "1TB", "battery": "6500 mAh", "price": 36000, "img": "/Caps_Data/Phone13.png", "details": "Upto 16 GB ram (LPDDR5) <br>Max 1 TB storage <br>FHD/HD+ display <br>Battery - 4550/5500/6500 mAh <br>Sony IMX 900", "processor": "Dimensity 7300", "camera": "Sony IMX 900", "display": "FHD/HD+ display" },
+        {
+          "name": "Margak",
+          "ram": "16GB",
+          "storage": "2TB",
+          "battery": "6500 mAh",
+          "price": 35000,
+          "img": "/Caps_Data/Phone2.png",
+          "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6900 mAh <br>Any Camera below Sony IMX 300",
+          "processor": "Flagship Snapdragon",
+          "camera": "Any Camera below Sony IMX 300",
+          "display": "Amoled/FHD/HD+ display"
+        }
+      ]
+    },
+    "flagship": {
+      "phones": [
+        { "name": "Stephen", "ram": "16GB", "storage": "2TB", "battery": "6900 mAh", "price": 74999, "img": "/Caps_Data/Phone6.png", "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 5050/6000/6900 mAh <br>Any Camera", "processor": "Qualcomm Snapdragon 8 Gen Series", "camera": "Any Camera", "display": "Amoled/FHD/HD+ display" },
+        { "name": "Darkmon", "ram": "16GB", "storage": "2TB", "battery": "6900 mAh", "price": 54000, "img": "/Caps_Data/Phone9.png", "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 5050/6000/6900 mAh <br>Any Camera", "processor": "Qualcomm Snapdragon 8 Gen Series", "camera": "ZEISS 108MP, 32PX", "display": "Amoled/FHD/HD+ display" },
+        { "name": "Margak", "ram": "16GB", "storage": "2TB", "battery": "6500 mAh", "price": 62999, "img": "/Caps_Data/Phone14.png", "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6900 mAh <br>Any Camera below Sony IMX 300", "processor": "Flagship Snapdragon", "camera": "Any Camera below Sony IMX 300", "display": "Amoled/FHD/HD+ display" },
+        {
+          "name": "Rivo",
+          "ram": "8GB",
+          "storage": "2TB",
+          "battery": "6500 mAh",
+          "price": 17000,
+          "img": "/Caps_Data/Phone1.png",
+          "details": "Upto 8 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6500 mAh <br>Any Camera",
+          "processor": "Qualcomm Snapdragon 7 Series",
+          "camera": "Any Camera",
+          "display": "Amoled/FHD/HD+ display"
+        }
+      ]
+    },
+    "business": {
+      "phones": [
+        { "name": "Tuf", "ram": "12GB", "storage": "2TB", "battery": "6000 mAh", "price": 27499, "img": "/Caps_Data/Phone7.png", "details": "Upto 12 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 4550/5500/6000 mAh <br>Any Camera below Sony IMX 300", "processor": "Efficient Mediatek Dimensity", "camera": "Any Camera below Sony IMX 300", "display": "Amoled/FHD/HD+ display" },
+        { "name": "Legion", "ram": "16GB", "storage": "2TB", "battery": "6900 mAh", "price": 34999, "img": "/Caps_Data/Phone15.png", "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 5050/6000/6900 mAh <br>Any Camera", "processor": "Qualcomm Snapdragon 8 Gen Series", "camera": "Any Camera", "display": "Amoled/FHD/HD+ display" },
+        {
+          "name": "Aura",
+          "ram": "16GB",
+          "storage": "2TB",
+          "battery": "6900 mAh",
+          "price": 34000,
+          "img": "/Caps_Data/Phone3.png",
+          "details": "Upto 16 GB ram (LPDDR5) <br>Max 2 TB storage <br>Amoled/FHD/HD+ display <br>Battery - 5050/6000/6900 mAh <br>Any Camera",
+          "processor": "Qualcomm Snapdragon 8 Gen Series",
+          "camera": "Any Camera",
+          "display": "Amoled/FHD/HD+ display"
+        }
+      ]
+    }
+  }
+}

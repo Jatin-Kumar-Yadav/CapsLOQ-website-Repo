@@ -1,0 +1,58 @@
+<%- include('partials/header') %>
+
+<link rel="stylesheet" href="/support_help.css">
+
+<section class="support-container">
+    <h1>Support & Help Center</h1>
+    <p>Find answers to your questions or reach out to us directly.</p>
+
+    <!-- FAQ Section -->
+    <div class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      
+      <div class="faq">
+        <button class="faq-question">How can I customize my phone?</button>
+        <div class="faq-answer">
+          <p>You can use our Customize Phone page to choose components, design, and features according to your needs.</p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="faq-question">How long does delivery take?</button>
+        <div class="faq-answer">
+          <p>Delivery usually takes 5-7 business days depending on your location.</p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="faq-question">Can I track my order?</button>
+        <div class="faq-answer">
+          <p>Yes! You can track your order using the Order Tracking page.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Support Form -->
+    <div class="form-section">
+      <h2>Contact Support</h2>
+      <form action="#" method="post">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Subject" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Extra Section -->
+    <div class="extra-support">
+      <h2>Check Ticket Status</h2>
+      <input type="text" placeholder="Enter Ticket ID">
+      <button>Check Status</button>
+
+      <h2>Need Instant Help?</h2>
+      <button class="chat-btn">Start Live Chat</button>
+    </div>
+  </section>
+
+<%- include('partials/footer') %>
