@@ -7,7 +7,11 @@ let cart = [], pastPurchases = [], savedForLater = [];
 async function fetchCart() {
   if (!token) {
     alert('Please login to view cart');
+<<<<<<< HEAD
     window.location.href = '/Login';
+=======
+    window.location.href = 'Login.html';
+>>>>>>> d63683133fafa3ea2269a6cf1cf3a75da1453532
     return;
   }
   const res = await fetch(`${API}/cart`, {

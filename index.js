@@ -18,7 +18,11 @@ function updateCartBadge() {
 async function addToCart(product) {
   if (!token) {
     alert('Please login first');
+<<<<<<< HEAD
     window.location.href = '/login';
+=======
+    window.location.href = 'Login.html';
+>>>>>>> d63683133fafa3ea2269a6cf1cf3a75da1453532
     return;
   }
   const res = await fetch('http://localhost:5000/api/cart/add', {
@@ -98,7 +102,11 @@ function loadCategory(cat) {
 document.addEventListener("DOMContentLoaded", () => {
   if (token) updateCartBadge();
 
+<<<<<<< HEAD
   fetch("/Phones.json")
+=======
+  fetch("Phones.json")
+>>>>>>> d63683133fafa3ea2269a6cf1cf3a75da1453532
     .then(r => r.json())
     .then(data => {
       phoneData = data;

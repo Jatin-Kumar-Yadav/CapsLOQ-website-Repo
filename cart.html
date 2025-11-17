@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cart.css" />
+</head>
+
+<body>
+  <header class="Navigation_panel">
+    
+    <!-- Logo Section -->
+    <div class="logo-section">
+      <img src="/Caps_Data/Ultimate CapsLOQ.jpg" alt="Logo" class="CapsLOQimage">
+      <span class="Logoname">CapsLOQ</span>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Customize.html">Customize Phone</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="support_help.html">Support</a></li>
+      </ul>
+    </nav>
+
+    <!-- Search + Actions -->
+    <div class="actions">
+      <div class="search">
+        <img src="/Caps_Data/Lensimage.png" alt="lens" class="searchlens">
+        <input type="text" placeholder="Search phones...">
+      </div>
+      <button class="login">
+        <img src="/Caps_Data/Userimage.png" alt="Userimage">
+        <span><a href="Login.html">Login</a></span>
+      </button>
+      <button class="cartbutton">       
+        <a href="cart.html"><img src="/Caps_Data/Cartimage.png" alt="Cart"></a>
+        <!-- <span id="cart-badge" class="cart-badge">0</span> -> This line was adding unnecessary badge on header section while we are in cart section -->  
+      </button>
+      <button class="menu">
+        <img src="/Caps_Data/Menuimage.png" alt="Menu">
+      </button>
+    </div>
+  </header>
+  <div class="cartheadingimage">
+    <img src="/Caps_Data/Loginheadingimage.png" alt="Loginheadingimage">
+  </div>
+  <div class="cart-main">
+    <div class="cart-section">
+      <h3 id="cart-items-title">Cart Items (0)</h3>
+      <div id="cart-items" class="horizontal-scroll"></div>
+    </div>
+
+    <div class="cart-section">
+      <h3 id="past-purchases-title">Past Purchases (0)</h3>
+      <div id="past-purchases" class="horizontal-scroll"></div>
+    </div>
+
+    <div class="cart-section">
+      <h3 id="saved-for-later-title">Saved for Later (0)</h3>
+      <div id="saved-for-later" class="horizontal-scroll"></div>
+    </div>
+  </div>
+
+  <footer class="cart-footer">
+    <div class="footer-content">
+      <span>Total: ₹<span id="cart-total">0</span></span>
+      <button id="clear-cart">Clear Cart</button>
+      <button id="checkout-all">Checkout All</button>
+    </div>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>

@@ -1,3 +1,176 @@
+<<<<<<< HEAD
+=======
+body {
+  font-family: "Open Sans";
+  background: #F9F9F9;
+  margin: 0;
+  padding: 0;
+}
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Open Sans", sans-serif;
+      position: absolute;
+      overflow-x: hidden;
+      padding-top: 62px;
+    }
+
+    header.Navigation_panel {
+      background-color: #F9F9F9;
+      height: 62px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 200px;
+      border-bottom: 2px solid #00000010;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    /* Logo + Name */
+    .logo-section {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      padding-right: 35px;
+    }
+
+    .CapsLOQimage {
+      width: 56px;
+      height: 56px;
+      border-radius: 18.43%;
+    }
+
+    .Logoname {
+      color: #101828;
+      font-size: 24px;
+      font-weight: 550;
+      font-family: "Open Sans", sans-serif;
+    }
+    nav{
+        background-color: white;
+        width: 500px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+    }
+    /* Navigation Links */
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 34px;
+      align-items: center;
+      justify-content: center;
+      white-space: nowrap;
+      padding: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #364153;
+      font-size: 17px;
+      transition: color 0.5 ease;
+    }
+    nav ul li a:hover {
+      color: #155dfc;
+    }
+    /* Search Bar */
+    .search {
+      margin-left: 25px;
+      display: flex;
+      align-items: center;
+      background-color: #D9D9D9;
+      border-radius: 6px;
+      padding: 4px 50px 4px 9px;
+    }
+    .search input {
+      border: none;
+      outline: none;
+      font-size: 15px;
+      padding-left: 4px;
+      background-color: transparent;
+    }
+    /* Buttons */
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .actions button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .actions img {
+      width: 28.62px;
+      height: 28px;
+    }
+    .menu img{
+        width: 45px;
+        height: 40.77px;
+    }
+    .cartbutton img{
+        margin-left: 25px;
+        width:40.89px;
+        height:36.96px;
+        margin-right: 5px;
+    }
+    .login{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 10px;
+        padding: 3px 0px 3px 0px;
+        
+        background: #fff;             /* flat background */
+        border: 1px solid #C6C6C6 !important;    /*  border for the whole button */
+        border-radius: 6px;
+
+        cursor: pointer;
+        font-family: "Roboto Serif", serif;
+        font-size: 17px;
+        color: #101828;
+
+    }
+    .login a{
+      text-decoration: none;
+      color: black;
+    }
+    .login a:hover{
+      color: #fff;
+    }
+    .login:hover {
+    background-color: #000; /* black background */
+    color: #fff; /* white text */
+    border-color: #000; /* optional: border matches background */
+    }
+    .login:hover a{
+      color: #fff;
+    }
+    .login:hover img {
+    filter: brightness(0) invert(1); /* makes icon white */
+    }
+>>>>>>> d63683133fafa3ea2269a6cf1cf3a75da1453532
 
 
 .support-container {

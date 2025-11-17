@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - CapsLOQ</title>
+  <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+  <!-- YOUR FULL HEADER KEPT -->
+  <header class="Navigation_panel">
+    
+    <!-- Logo Section -->
+    <div class="logo-section">
+      <img src="/Caps_Data/Ultimate CapsLOQ.jpg" alt="Logo" class="CapsLOQimage">
+      <span class="Logoname">CapsLOQ</span>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Customize.html">Customize Phone</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="support_help.html">Support</a></li>
+      </ul>
+    </nav>
+
+    <!-- Search + Actions -->
+    <div class="actions">
+      <div class="search">
+        <img src="/Caps_Data/Lensimage.png" alt="lens" class="searchlens">
+        <input type="text" placeholder="Search phones...">
+      </div>
+      <button class="login">
+        <img src="/Caps_Data/Userimage.png" alt="Userimage">
+        <span><a href="Login.html">Login</a></span>
+      </button>
+      <button class="cartbutton">       
+        <a href="cart.html"><img src="/Caps_Data/Cartimage.png" alt="Cart"></a>
+        <span id="cart-badge" class="cart-badge">0</span>
+      </button>
+      <button class="menu">
+        <img src="/Caps_Data/Menuimage.png" alt="Menu">
+      </button>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="form-box">
+      <h3>Login to CapsLOQ</h3>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button class="login-btn" id="loginBtn">Login</button>
+      <p style="margin-top:15px;font-size:13px;">Don't have an account? <a href="#" id="registerLink" style="color:#4caf50;">Register</a></p>
+    </div>
+  </div>
+
+  <script>
+    const API = 'http://localhost:5000/api';
+
+    async function login() {
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value;
+      if (!email || !password) return alert('Fill all fields');
+
+      const res = await fetch(`${API}/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password })
+      });
+      const data = await res.json();
+      if (data.token) {
+        localStorage.setItem('token', data.token);
+        alert('Login successful!');
+        window.location.href = 'index.html';
+      } else {
+        alert(data.error || 'Login failed');
+      }
+    }
+
+    document.getElementById('loginBtn').onclick = login;
+
+    document.getElementById('registerLink').onclick = async () => {
+      const email = prompt('Enter email for registration:');
+      const password = prompt('Enter password:');
+      if (email && password) {
+        const res = await fetch(`${API}/register`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, password })
+        });
+        const data = await res.json();
+        if (data.token) {
+          localStorage.setItem('token', data.token);
+          alert('Registered & logged in!');
+          window.location.href = 'index.html';
+        } else {
+          alert('Registration failed');
+        }
+      }
+    };
+  </script>
+</body>
+</html>
