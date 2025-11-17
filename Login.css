@@ -1,0 +1,156 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Open Sans", sans-serif;
+      overflow-x: hidden;
+      color: #101828;
+      min-height: 100vh;
+      padding-top: 62px; /* keep space for fixed header */
+    }
+
+    header.Navigation_panel {
+      background-color: #F9F9F9;
+      height: 62px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 200px;
+      border-bottom: 2px solid #00000010;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    /* Logo + Name */
+    .logo-section {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      padding-right: 35px;
+    }
+
+    .CapsLOQimage { width: 56px; height: 56px; border-radius: 18.43%; }
+    .Logoname { color: #101828; font-size: 24px; font-weight: 550; }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 34px;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #364153;
+      font-size: 17px;
+    }
+    nav ul li a:hover { color: #155dfc; }
+
+    .search {
+      margin-left: 25px;
+      display: flex;
+      align-items: center;
+      background-color: #D9D9D9;
+      border-radius: 6px;
+      padding: 4px 50px 4px 9px;
+    }
+    .search input {
+      border: none; outline: none;
+      font-size: 15px;
+      background-color: transparent;
+    }
+    .actions img {
+      width: 28.62px;
+      height: 28px;
+    }
+    /* .menu img{
+        width: 45px;
+        height: 40.77px;
+    } */
+    .actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+    .actions button {
+      background: none; border: none; cursor: pointer; font-size: 16px;
+      display: flex; align-items: center; gap: 9px; padding-left: 10px;
+      padding-right: 10px;
+    }
+    .login {
+      margin-left: 20px;
+      margin-right: 10px;
+      display: flex; align-items: center;
+      background: #fff;
+      border: 1px solid #C6C6C6 !important;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: "Roboto Serif", serif;
+      font-size: 17px; color: #101828;
+      padding: 3px 10px;
+    }
+    .login a{
+      text-decoration: none;
+      color: black;
+    }
+    .login a:hover{
+      color: #fff;
+    }
+    .login:hover { background: #000; color: #fff; border-color: #000;}
+    .login:hover a{color: #fff;}
+    .login:hover img { filter: brightness(0) invert(1);}
+    .cartbutton img{
+        margin-left: 25px;
+        width:40.89px;
+        height:36.96px;
+        margin-right: 5px;
+    }
+    .menu img{
+        width: 45px;
+        height: 40.77px;
+        margin-left: 12px;
+    }
+    /* HERO SECTION */
+    .hero {
+      background: url("/Caps_Data/background.png") no-repeat center center/cover;
+      height: calc(100vh - 62px);
+      display: flex;
+      justify-content: flex-end;   /* push form to right */
+      align-items: center;
+      padding-right: 10%;
+    }
+
+    /* LOGIN FORM BOX */
+    .form-box {
+      background: rgba(0,0,0,0.6);
+      padding: 25px;
+      border-radius: 12px;
+      color: #fff;
+      max-width: 350px;
+      width: 100%;
+    }
+    .form-box h3 { margin-bottom: 10px; }
+    .form-box p { margin-bottom: 10px; font-size: 14px; }
+    .form-box input {
+      width: 100%; padding: 10px; margin: 8px 0;
+      border-radius: 6px; border: none;
+    }
+    .login-btn {
+      width: 100%; padding: 10px;
+      background: #101828; color: #fff;
+      border: none; border-radius: 6px;
+      margin-top: 8px; cursor: pointer;
+    }
+    .login-btn:hover { background: #155dfc; }
+
+    .tnc {
+      display: flex; align-items: center;
+      margin-top: 12px; font-size: 13px; color: #ddd;
+      text-align: center; width: 100%;
+      align-items: center; justify-content: center;
+    }
+    .tnc input { transform: scale(1.5); cursor: pointer;  }
+    .login-btn a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+    }
